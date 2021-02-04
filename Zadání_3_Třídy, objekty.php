@@ -1,10 +1,10 @@
 <?php
 	class employee {	
-		private $name;
-		private $surname;
-		private $email;
-		private $phone;
-		private $id;
+		private string $name;
+		private string $surname;
+		private string $email;
+		private string $phone;
+		private string $id;
 
 		public function __construct(string $name, string $surname, string $email, string $phone, string $id) {
 			$this->name = $name;
